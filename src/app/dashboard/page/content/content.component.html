@@ -1,0 +1,16 @@
+<div class="flex flex-col min-h-screen bg-[#F1E6FF] relative">
+  <!-- Breadcrumb (scrollable) -->
+  <div class="overflow-y-auto z-30 bg-gradient-to-r from-[#6A4C92] to-[#4B2E83] p-3 rounded-lg shadow-md">
+    <app-breadcrumb></app-breadcrumb>
+  </div>
+
+
+  <div class="flex-grow m-6 p-8 bg-white shadow-xl rounded-lg overflow-y-auto z-40">
+    <router-outlet></router-outlet>
+  </div>
+
+  <!-- Footer (ocupando el espacio inferior de la pantalla) -->
+  <app-footer class="h-40 w-full bg-gradient-to-r from-[#6A4C92] to-[#4B2E83] text-white shadow-lg flex items-center justify-center mt-auto">
+    <p class="text-center">© 2025 </p>
+  </app-footer>
+</div>
