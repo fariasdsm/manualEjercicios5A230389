@@ -64,6 +64,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 >>>>>>> aafb2da (initial commit)
 =======
-# manualEjercicios_230881
+# manualEjercicios_230389
 Creación repositorio para el manual de ejercicios en Angular.
 >>>>>>> 8767bd4dd3a8a0ff629751a5a9e52b0f5e8a54b9
