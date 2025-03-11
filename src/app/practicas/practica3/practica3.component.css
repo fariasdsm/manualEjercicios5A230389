@@ -1,16 +1,16 @@
-/* Estilo para el elemento <section> que contiene el username */
+
 section {
-    font-size: 1.6rem;           /* Tamaño de fuente ligeramente mayor */
-    color: #4B0082;              /* Color morado para el texto */
-    font-weight: 600;            /* Peso de fuente en negrita */
-    padding: 15px 20px;          /* Relleno alrededor del texto */
-    margin: 10px 0;              /* Espacio arriba y abajo */   
-    text-align: center;          /* Alineación centrada del texto */
+    font-size: 1.6rem;          
+    color: #4B0082;            
+    font-weight: 600;           
+    padding: 15px 20px;          
+    margin: 10px 0;              
+    text-align: center;         
   }
 
    span {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #FFD700; /* Color dorado */
+    color: #FFD700; 
   }
   

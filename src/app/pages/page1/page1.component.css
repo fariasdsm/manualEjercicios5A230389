@@ -3,22 +3,20 @@
   margin-top: 50px;
   padding: 30px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #F3F4F6; /* Fondo sutil para darle más vida */
-  border-radius: 10px; /* Bordes redondeados */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
+  border-radius: 10px; 
 }
 
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #6A4C92; /* Un morado suave */
-  margin-bottom: 15px; /* Un poco de espacio abajo */
+  color: #6A4C92; 
+  margin-bottom: 15px; 
 }
 
 p {
   font-size: 1.125rem;
   color: #555;
-  line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+  line-height: 1.6; 
   margin-bottom: 20px;
 }
 

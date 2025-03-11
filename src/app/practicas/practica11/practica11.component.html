@@ -1,18 +1,12 @@
-
-<div class="hero-image-container">
-    <img 
-      ngSrc="/assets/practica11/hero-image.jpg" 
-      alt="Hero Image" 
-      width="1200" 
-      height="800" 
-      priority />
-  </div>
-
-  <div class="logo-container">
-    <img 
-      ngSrc="/assets/practica11/logo.png" 
-      alt="Logo" 
-      width="200" 
-      height="200" />
-  </div>
-  
+<p>Username: {{ username }}</p>
+<p>Preferred Framework:</p>
+<ul>
+  <li>
+    Static Image:
+    <img ngSrc="/assets/logo.svg" alt="Angular logo" width="32" height="32" />
+  </li>
+  <li>
+    Dynamic Image:
+    <img [ngSrc]="logoUrl" [alt]="logoAlt" width="32" height="32" />
+  </li>
+</ul>

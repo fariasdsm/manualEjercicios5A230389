@@ -1,16 +1,13 @@
-/* Estilo para cuando el servidor está corriendo */
 .server-running {
     color: green;
     font-weight: bold;
 }
 
-/* Estilo para cuando el servidor no está corriendo */
 .server-not-running {
     color: red;
     font-weight: bold;
 }
 
-/* Estilo para cuando el servidor está inactivo (durmiendo) */
 .server-sleeping {
     color: orange;
     font-weight: bold;
