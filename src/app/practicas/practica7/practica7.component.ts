@@ -9,7 +9,7 @@ export class Practica7Component {
   message = '';
 
   onMouseOver() {
-    this.message = 'Los pulpos tienen tres corazones.';
+    this.message = 'Pepeyo no es ingeniero';
   }
 
   onMouseLeave() {
@@ -17,6 +17,6 @@ export class Practica7Component {
   }
 
   greet() {
-    console.log('Hola, cara de bola 👋');
+    console.log('Hola nariz de codornizzz');
   }
 }

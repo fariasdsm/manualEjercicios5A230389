@@ -1,9 +1,9 @@
 
 section {
     font-size: 1.6rem;          
-    color: #4B0082;            
+    color: black;            
     font-weight: 600;           
-    padding: 15px 20px;          
+    padding: 150px 20px;          
     margin: 10px 0;              
     text-align: center;         
   }
@@ -11,6 +11,6 @@ section {
    span {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #FFD700; 
+    color: blue; 
   }
   

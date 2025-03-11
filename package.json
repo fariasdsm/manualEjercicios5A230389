@@ -1,13 +1,13 @@
 {
-  "name": "manual-ejercicios-5-a-230881",
-  "version": "0.0.0",
+  "name": "manual-ejercicios-5A-230389",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:ManualEjercicios_5A_230881": "node dist/manual-ejercicios-5-a-230881/server/server.mjs"
+    "serve:ssr:ManualEjercicios_5A_230881": "node dist/manual-ejercicios-5A-230389/server/server.mjs"
   },
   "private": true,
   "dependencies": {

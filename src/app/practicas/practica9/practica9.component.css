@@ -1,31 +1,33 @@
 app-practica9-aux {
-    display: block;
-    padding: 16px;
-    background-color: #6A4C92; 
-    color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 100%;
-    max-width: 350px;
-    margin: 0 auto;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-  }
-  
-  app-practica9-aux:hover {
-    background-color: #4B2E83; 
-    transform: translateY(-5px); 
-  }
-  
-  p {
-    font-size: 1.2rem;
-    color: #333;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  p span {
-    color: #6A4C92;
-  }
-  
+  display: block;
+  padding: 18px;
+  background: linear-gradient(135deg, #007BFF, #0056B3);
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+app-practica9-aux:hover {
+  background: linear-gradient(135deg, #0056B3, #003D7A);
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: 1.2rem;
+  color: #222;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p span {
+  color: #007BFF;
+  font-weight: bold;
+}

@@ -1,21 +1,21 @@
-<div class="bg-white text-gray-800 h-screen w-80 p-6 border-r border-gray-300 shadow-md overflow-y-auto">
-  <h2 class="text-2xl font-semibold mb-8">Prácticas de Angular</h2>
-  <ul class="space-y-2">
+<div class="bg-gradient-to-br from-[#E0E7FF] to-[#C7D2FE] text-gray-900 h-screen w-80 p-6 border-r border-gray-300 shadow-lg overflow-y-auto rounded-lg">
+  <h2 class="text-2xl font-bold mb-6 text-[#1E3A8A]">Prácticas de Angular</h2>
+  <ul class="space-y-3">
     <li *ngFor="let item of practicas; let i = index" class="cursor-pointer">
       <a
-        class="block px-6 py-3 rounded-lg hover:bg-[#E1E1E1] hover:text-[#6A4C92] transition-all duration-300"
+        class="block px-6 py-3 bg-white shadow-md rounded-xl hover:bg-[#4F46E5] hover:text-white transition-all duration-300"
         [routerLink]="item.link"
         (click)="toggleDescripcion(i)">
         {{ item.nombre }}
       </a>
-      <div *ngIf="item.mostrarDescripcion" class="bg-gray-100 text-gray-600 mt-2 p-3 rounded-lg shadow-inner transition-all duration-300">
-        <h5 class="text-lg font-semibold">Nombre:</h5>
+      <div *ngIf="item.mostrarDescripcion" class="bg-white text-gray-700 mt-2 p-4 rounded-xl shadow-lg transition-all duration-300 border border-gray-200">
+        <h5 class="text-lg font-semibold text-[#374151]">Nombre:</h5>
         <p>{{ item.ejercicio }}</p>
-        <h5 class="text-lg font-semibold">Objetivo:</h5>
+        <h5 class="text-lg font-semibold text-[#374151] mt-2">Objetivo:</h5>
         <p>{{ item.objetivo }}</p>
-        <h5 class="text-lg font-semibold mt-4">Descripción:</h5>
+        <h5 class="text-lg font-semibold text-[#374151] mt-2">Descripción:</h5>
         <p>{{ item.descripcion }}</p>
-        <h5 class="text-lg font-semibold mt-4">Unidad:</h5>
+        <h5 class="text-lg font-semibold text-[#374151] mt-2">Unidad:</h5>
         <p>{{ item.unidad }}</p>
       </div>
     </li>

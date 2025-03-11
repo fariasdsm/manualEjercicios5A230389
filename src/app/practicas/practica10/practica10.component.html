@@ -1,13 +1,19 @@
-<div>
-    <h1>How I feel about Angular</h1>
-    <article>
-<p>Angular is my favorite framework, and this is why. Angular has the coolest deferrable view feature that makes defer loading content the easiest and most ergonomic it could possibly be.</p>
-</article>
+<div class="bg-[#0F172A] p-6 rounded-lg shadow-md">
+    <h1 class="text-2xl font-extrabold text-[#FACC15] mb-4">My Thoughts on Web Frameworks</h1>
+    
+    <article class="bg-[#1E293B] p-4 rounded-md shadow-sm border-l-4 border-[#F87171]">
+        <p class="text-[#E2E8F0] leading-relaxed">
+            Modern web frameworks offer powerful tools for developers. Some stand out for their flexibility, while others shine in structured development. Choosing the right one depends on the project needs.
+        </p>
+    </article>
+
     @defer (on viewport) {
         <app-practica10-aux />
-    } @placeholder {
-        <p>Future comments</p>
-    } @loading (minimum 2s)  {
-        <p>Loading comments...</p>
+    } 
+    @placeholder {
+        <p class="text-[#FACC15] font-semibold">Incoming discussions...</p>
+    } 
+    @loading (minimum 2s) {
+        <p class="text-[#F87171] font-semibold">Fetching insights...</p>
     }
-  </div>
+</div>

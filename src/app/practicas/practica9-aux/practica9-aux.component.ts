@@ -9,6 +9,6 @@ import { Component, Output, EventEmitter } from '@angular/core';
 export class Practica9AuxComponent {
   @Output() addItemEvent = new EventEmitter();
   addItem() {
-    this.addItemEvent.emit('🐢');
+    this.addItemEvent.emit('Item added');
   }
 }

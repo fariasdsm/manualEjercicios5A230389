@@ -8,7 +8,7 @@ import { NgOptimizedImage } from '@angular/common';
   styleUrl: './practica11.component.css'
 })
 export class Practica11Component {
-  logoUrl = '../assets/image.png';  
-  logoAlt = 'Logo de angular';  
-  username='Ktmich'
+  logoUrl = '../assets/images/angular.png';  
+  logoAlt = 'Logo de Angular';  
+  username='fariasdsm'
 }

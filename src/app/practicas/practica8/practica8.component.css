@@ -1,35 +1,38 @@
 app-practica8-aux {
-    display: inline-block;
-    padding: 12px 20px;
-    color: #000000;
-    font-size: 1.2rem;
-    font-weight: bold;
-    border-radius: 10px;
-   
-    text-align: center;
-  
-    transition: transform 0.3s ease, background-color 0.3s ease;
-  }
-  
-  app-practica8-aux:hover {
-    transform: translateY(-5px); 
-  }
-  
-  app-practica8-aux::before {
-    content: "👨‍💻"; 
-    font-size: 1.5rem;
-    margin-bottom: 8px;
-  }
-  
-  app-practica8-aux .occupation {
-    font-size: 1rem;
-    color: #d1d1d1;
-    font-weight: normal;
-  }
-  
-  app-practica8-aux .name {
-    font-size: 1.3rem;
-    color: #fff;
-    font-weight: bold;
-  }
-  
+  display: inline-block;
+  padding: 14px 24px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 12px;
+  text-align: center;
+  background: linear-gradient(135deg, #4a90e2, #0056b3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+app-practica8-aux:hover {
+  transform: translateY(-5px);
+  background: linear-gradient(135deg, #0056b3, #003d7a);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+app-practica8-aux::before {
+  content: "💻"; 
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+app-practica8-aux .occupation {
+  font-size: 1rem;
+  color: #e0e0e0;
+  font-weight: normal;
+}
+
+app-practica8-aux .name {
+  font-size: 1.4rem;
+  color: #fff;
+  font-weight: bold;
+}

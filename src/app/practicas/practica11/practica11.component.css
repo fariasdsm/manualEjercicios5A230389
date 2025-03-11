@@ -1,16 +1,66 @@
-.hero-image-container {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-  }
-  
-  img {
-    border-radius: 8px;
-  }
-  
+/* Contenedor principal */
+.profile-container {
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Estilos de usuario y framework */
+.username,
+.framework {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.username span,
+.framework span {
+  color: #ffcc00;
+}
+
+/* Lista de imágenes */
+.image-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  color: #333;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+/* Imagen estática sin efectos */
+.static-image {
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.static-image:hover {
+  opacity: 0.8;
+}
+
+/* Imagen dinámica con efectos */
+.dynamic-image {
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.dynamic-image:hover {
+  transform: rotate(5deg) scale(1.08);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}

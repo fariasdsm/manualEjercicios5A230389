@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 })
 export class Practica5Component {
   operatingSystems = [{id: 'linux', name: 'Linux'}, {id: 'osx', name: 'MacOS'}, {id: 'windows', name: 'Windows'}];
- users = [{id: 0, name: 'Al'}, {id: 1, name: 'Angel'}, {id: 2, name: 'Ppyo'}, {id: 3, name: 'Victoria'}, {id: 4, name: 'Michelle'}];
+ users = [{id: 0, name: 'Profe Marco'}, {id: 1, name: 'Profe Vite'}, {id: 2, name: 'Ing. Pepeyo'}, {id: 3, name: 'Al Farias'}, {id: 4, name: 'Jesus Artiaga'}];
 }

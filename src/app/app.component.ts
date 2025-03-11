@@ -3,10 +3,11 @@ import { PageContainerComponent } from "./dashboard/page-container/page-containe
 
 @Component({
   selector: 'app-root',
-  imports: [PageContainerComponent],
+  standalone: true,
+  imports: [PageContainerComponent], // Agrega FooterComponent
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'app-angular-230881';
+  title = 'app-angular-230389';
 }
